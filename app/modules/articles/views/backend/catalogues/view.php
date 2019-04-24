@@ -41,6 +41,7 @@
 					<th>Người sửa</th>
 					<th>Thời gian</th>
 					<th>Xuất bản</th>
+					<th>Cột Aside</th>
 					<!-- <th>Tuyển Dụng</th>
 					<th>Khách Hàng</th>
 					<th>Tin Tức</th>
@@ -88,7 +89,12 @@
 					<td><?php echo gettime($item['created']);?></td>
 					<td>
 						<a href="<?php echo site_url('articles/backend/catalogues/set/publish/'.$item['id'].'?redirect='.urlencode(current_url())); ?>" title="" class="status-publish">
-							<img src="<?php echo (!empty($item['publish']))? 'templates/backend/images/publish-check.png':'templates/backend/images/publish-deny.png'; ?>" alt="" />
+							<img src="<?php echo ($item['publish'] > 0)? 'templates/backend/images/publish-check.png':'templates/backend/images/publish-deny.png'; ?>" alt="" />
+						</a>
+					</td>
+					<td>
+						<a href="<?php echo site_url('articles/backend/catalogues/set/isaside/'.$item['id'].'?redirect='.urlencode(current_url())); ?>" title="" class="status-publish">
+							<img src="<?php echo ($item['isaside'] > 0)? 'templates/backend/images/publish-check.png':'templates/backend/images/publish-deny.png'; ?>" alt="" />
 						</a>
 					</td>
 					<!-- <td>
@@ -99,11 +105,6 @@
 					<td>
 						<a href="<?php  // echo site_url('articles/backend/catalogues/set/highlight/'.$item['id'].'?redirect='.urlencode(current_url())); ?>" title="" class="status-publish">
 							<img src="<?php //  echo (!empty($item['highlight']))? 'templates/backend/images/publish-check.png':'templates/backend/images/publish-deny.png'; ?>" alt="" />
-						</a>
-					</td>
-					<td>
-						<a href="<?php //  echo site_url('articles/backend/catalogues/set/isaside/'.$item['id'].'?redirect='.urlencode(current_url())); ?>" title="" class="status-publish">
-							<img src="<?php //  echo (!empty($item['isaside']))? 'templates/backend/images/publish-check.png':'templates/backend/images/publish-deny.png'; ?>" alt="" />
 						</a>
 					</td>
 					

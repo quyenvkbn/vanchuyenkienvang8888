@@ -17,7 +17,6 @@
 					</ul>
 						<div class="tab-content">
 							<div class="box-body">
-								<?php $error = validation_errors(); echo !empty($error)?'<div class="callout callout-danger">'.$error.'</div>':'';?>
 							</div><!-- /.box-body -->
 							<div class="tab-pane active" id="tab-info">
 								<div class="box-body">
@@ -38,22 +37,22 @@
 										</div>
 										<div class="col-sm-2" style="line-height: 34px;font-weight: 600;">.html</div>
 									</div>
-									<div class="form-group">
+									<div class="form-group hidden">
 										<label class="col-sm-2 control-label tp-text-left">Chủ đề</label>
 										<div class="col-sm-10">
-											<?php echo form_dropdown('tagsid[]', $this->BackendTags_Model->Dropdown(), (isset($tagsid)?$tagsid:NULL), 'class="form-control select2" multiple="multiple" style="width: 100%;" id="tagsid"');?>
+											<?php // echo form_dropdown('tagsid[]', $this->BackendTags_Model->Dropdown(), (isset($tagsid)?$tagsid:NULL), 'class="form-control select2" multiple="multiple" style="width: 100%;" id="tagsid"');?>
 										</div>
 									</div>
 									<div class="form-group" style="display: none;">
 										<label class="col-sm-2 control-label tp-text-left">Quốc gia</label>
 										<div class="col-sm-10">
-											<?php echo form_dropdown('country[]', $this->BackendAddress_Model->Dropdown(0), (isset($countryid)?$countryid:NULL), 'class="form-control select2" multiple="multiple" style="width: 100%;" id="country"');?>
+											<?php // echo form_dropdown('country[]', $this->BackendAddress_Model->Dropdown(0), (isset($countryid)?$countryid:NULL), 'class="form-control select2" multiple="multiple" style="width: 100%;" id="country"');?>
 										</div>
 									</div>
 									<div class="form-group" style="display: none;">
 										<label class="col-sm-2 control-label tp-text-left">Hệ đào tạo</label>
 										<div class="col-sm-10">
-											<?php echo form_dropdown('hedaotao[]', $this->BackendAddress_Model->Dropdown(1), (isset($hedaotaoid)?$hedaotaoid:NULL), 'class="form-control select2" multiple="multiple" style="width: 100%;" id="hedaotao"');?>
+											<?php // echo form_dropdown('hedaotao[]', $this->BackendAddress_Model->Dropdown(1), (isset($hedaotaoid)?$hedaotaoid:NULL), 'class="form-control select2" multiple="multiple" style="width: 100%;" id="hedaotao"');?>
 										</div>
 									</div>
 									<div class="form-group">
@@ -86,18 +85,13 @@
 											<?php echo form_textarea('content', htmlspecialchars_decode(set_value('content', $DetailArticles['content'])), 'id="txtContent" class="ckeditor-description" placeholder="Nội dung" style="width: 100%; height: 350px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"');?>
 										</div>
 									</div>
-									<div class="form-group">
+									<div class="form-group hidden">
 										<label class="col-sm-2 control-label tp-text-left">Video</label>
 										<div class="col-sm-10">
-											<?php echo form_textarea('youtube', htmlspecialchars_decode(set_value('youtube', $DetailArticles['youtube'])), 'id="txtyoutube" class="ckeditor-description" placeholder="Mã Hóa trước khi chèn" style="width: 100%; height: 350px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"');?>
+											<?php// echo form_textarea('youtube', htmlspecialchars_decode(set_value('youtube', $DetailArticles['youtube'])), 'id="txtyoutube" class="ckeditor-description" placeholder="Mã Hóa trước khi chèn" style="width: 100%; height: 350px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"');?>
 										</div>
 									</div>
-									<div class="form-group">
-										<label class="col-sm-2 control-label tp-text-left">bóng đá</label>
-										<div class="col-sm-10">
-											<?php echo form_textarea('bongda', htmlspecialchars_decode(set_value('bongda', $DetailArticles['bongda'])), 'id="txtbongda" class="ckeditor-description" placeholder="bongda" style="width: 100%; height: 350px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"');?>
-										</div>
-									</div>
+
 								</div><!-- /.box-body -->
 							</div><!-- /.tab-pane -->
 							<div class="tab-pane" id="tab-album">
@@ -156,15 +150,6 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-sm-12 control-label tp-text-left">Ảnh đại diện 222</label>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-12">
-										<div class="avatar" style="margin-bottom: 10px;cursor: pointer;"><img src="<?php echo (!empty($DetailArticles['images1']))? $DetailArticles['images1']:'templates/not-found.png'; ?>" class="img-thumbnail" alt="" style="width: 100%;border-radius: 0;" /></div>
-										<?php echo form_input('images1', set_value('images1', $DetailArticles['images1']), 'class="form-control"  placeholder="Ảnh đại diện" onclick="openKCFinder(this)" ');?>
-									</div>
-								</div>
-								<div class="form-group">
 									<label class="col-sm-12 control-label tp-text-left">Breadcrumb / Danh mục cha</label>
 								</div>
 								<?php $dropdown = $this->nestedsetbie->Dropdown(); ?>
@@ -205,12 +190,12 @@
 										<?php echo form_dropdown('publish', $this->configbie->data('publish'), set_value('publish', $DetailArticles['publish']), 'class="form-control" style="width: 100%;"');?>
 									</div>
 								</div>
-								<div class="form-group">
+								<div class="form-group hidden">
 									<label class="col-sm-12 control-label tp-text-left">Trang chủ</label>
 								</div>
-								<div class="form-group">
+								<div class="form-group hidden">
 									<div class="col-sm-12">
-										<?php echo form_dropdown('ishome', $this->configbie->data('ishome'), set_value('ishome', $DetailArticles['ishome']), 'class="form-control" style="width: 100%;"');?>
+										<?php // echo form_dropdown('ishome', $this->configbie->data('ishome'), set_value('ishome', $DetailArticles['ishome']), 'class="form-control" style="width: 100%;"');?>
 									</div>
 								</div>
 								<div class="form-group">
@@ -221,12 +206,12 @@
 										<?php echo form_dropdown('isaside', $this->configbie->data('isaside'), set_value('isaside', $DetailArticles['isaside']), 'class="form-control" style="width: 100%;"');?>
 									</div>
 								</div>
-								<div class="form-group">
+								<div class="form-group hidden">
 									<label class="col-sm-12 control-label tp-text-left">Footer</label>
 								</div>
-								<div class="form-group">
+								<div class="form-group hidden">
 									<div class="col-sm-12">
-										<?php echo form_dropdown('isfooter', $this->configbie->data('isfooter'), set_value('isfooter', $DetailArticles['isfooter']), 'class="form-control" style="width: 100%;"');?>
+										<?php // echo form_dropdown('isfooter', $this->configbie->data('isfooter'), set_value('isfooter', $DetailArticles['isfooter']), 'class="form-control" style="width: 100%;"');?>
 									</div>
 								</div>
 								<div class="form-group">

@@ -19,6 +19,7 @@
 					</div><!-- /.col -->
 				</div>
 				<div class="row invoice-info">
+					<?php echo show_flashdata(); ?>
 					<div class="col-sm-4 invoice-col">
 						<b>Danh mục bài viết</b><br>
 						<br>
@@ -29,7 +30,8 @@
 					<div class="col-sm-8 invoice-col">
 						<b>Thông tin</b><br>
 						<br>
-						<b>Xuất bản:</b> <?php echo $this->configbie->data('publish', $DetailArticlesCatalogues['publish']);?><br>
+						<b>Xuất bản:</b> <?php echo ($DetailArticlesCatalogues['publish'] >= 0) ? $this->configbie->data('publish', $DetailArticlesCatalogues['publish']) : 'Không xuất bản';?><br>
+						<b>Cột Aside:</b> <?php echo ($DetailArticlesCatalogues['isaside'] >= 0) ? $this->configbie->data('isaside', $DetailArticlesCatalogues['isaside']) : 'Không hiển thị';?><br>
 					</div><!-- /.col -->
 				</div><!-- /.row -->
 				<div class="row">

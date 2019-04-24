@@ -13,7 +13,7 @@
 				<div class="nav-tabs-custom">
 					<ul class="nav nav-tabs">
 						<li class="active"><a href="#tab-info" data-toggle="tab">Thông tin cơ bản</a></li>
-						<li><a href="#tab-album" data-toggle="tab">Slide ảnh</a></li>
+						<li class="hidden"><a href="#tab-album" data-toggle="tab">Slide ảnh</a></li>
 					</ul>
 					
 						<div class="tab-content">
@@ -66,42 +66,42 @@
 									<div class="form-group">
 										<label class="col-sm-2 control-label tp-text-left">Nội dung</label>
 										<div class="col-sm-10">
-											<?php echo form_textarea('bongda', htmlspecialchars_decode(set_value('bongda', $DetailArticlesCatalogues['bongda'])), 'id="txtbongda" class="ckeditor-description" placeholder="Mô tả" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"');?>
+											<?php echo form_textarea('bongda', htmlspecialchars_decode(set_value('bongda', $DetailArticlesCatalogues['bongda'])), 'id="txtbongda" class="ckeditor-description" placeholder="Nội dung" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"');?>
 										</div>
 									</div>
 								</div><!-- /.box-body -->
 							</div><!-- /.tab-pane -->
-							<div class="tab-pane" id="tab-album">
+							<div class="tab-pane hidden" id="tab-album">
 								<div class="box-body">
 									<div class="form-group" id="fromSlide">
 									<?php 
-										$slide = $this->input->post('album');
-										$album = '';
-										if(isset($slide) && is_array($slide) && count($slide)){
-											foreach($slide['images'] as $key => $val){
-												$album[$key]['images'] = $val;
-												$album[$key]['title'] = $slide['title'][$key];
-												$album[$key]['description'] = $slide['description'][$key];
-											}
-										}else{
-											$album = json_decode($DetailArticlesCatalogues['albums'], TRUE);
-										}
+										// $slide = $this->input->post('album');
+										// $album = '';
+										// if(isset($slide) && is_array($slide) && count($slide)){
+										// 	foreach($slide['images'] as $key => $val){
+										// 		$album[$key]['images'] = $val;
+										// 		$album[$key]['title'] = $slide['title'][$key];
+										// 		$album[$key]['description'] = $slide['description'][$key];
+										// 	}
+										// }else{
+										// 	$album = json_decode($DetailArticlesCatalogues['albums'], TRUE);
+										// }
 									?>
-									<?php if(isset($album) && is_array($album) && count($album)){ ?>
-									<?php foreach($album as $key => $val){ if(empty($album[$key]['images'])) continue;?>
+									<?php // if(isset($album) && is_array($album) && count($album)){ ?>
+									<?php // foreach($album as $key => $val){ if(empty($album[$key]['images'])) continue;?>
 									<div class="col-sm-3 slideItem">
-									<div class="thumb"><img src="<?php echo $album[$key]['images'];?>" class="img-thumbnail img-responsive"/></div>
-									<input type="hidden" name="album[images][]" value="<?php echo $album[$key]['images'];?>" />
-									<input type="text" name="album[title][]" value="<?php echo $album[$key]['title'];?>" class="form-control title" placeholder="Tên ảnh" />
-									<textarea name="album[description][]" cols="40" rows="10" class="form-control description" placeholder="Mô tả ảnh"><?php echo $album[$key]['description'];?></textarea>
+									<div class="thumb"><img src="<?php // echo $album[$key]['images'];?>" class="img-thumbnail img-responsive"/></div>
+									<input type="hidden" name="album[images][]" value="<?php // echo $album[$key]['images'];?>" />
+									<input type="text" name="album[title][]" value="<?php // echo $album[$key]['title'];?>" class="form-control title" placeholder="Tên ảnh" />
+									<textarea name="album[description][]" cols="40" rows="10" class="form-control description" placeholder="Mô tả ảnh"><?php // echo $album[$key]['description'];?></textarea>
 									<button type="button" class="btn btnRemove btn-danger pull-right">Xóa bỏ</button>
 									</div>
-									<?php } ?>
+									<?php // } ?>
 									<div class="col-sm-3 slideItem"><button type="button" class="btn btnAddItem pull-left">+</button></div>
-									<?php } ?>
+									<?php // } ?>
 									</div>
-								</div><!-- /.box-body -->
-							</div><!-- /.tab-pane -->
+								</div>
+							</div>
 						</div><!-- /.tab-content -->
 						<div class="box-footer">
 							<button type="reset" class="btn btn-default">Làm lại</button>
@@ -154,6 +154,15 @@
 										<?php echo form_dropdown('publish', $this->configbie->data('publish'), set_value('publish', $DetailArticlesCatalogues['publish']), 'class="form-control" style="width: 100%;"');?>
 									</div>
 								</div>
+								<div class="form-group">
+									<label class="col-sm-12 control-label tp-text-left">Cột Aside</label>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-12">
+										<?php  echo form_dropdown('isaside', $this->configbie->data('isaside'), set_value('isaside', $DetailArticlesCatalogues['isaside']), 'class="form-control" style="width: 100%;"');?>
+									</div>
+								</div>
+
 								<div class="hidden">
 									<div class="form-group">
 										<label class="col-sm-12 control-label tp-text-left">Trang chủ</label>
@@ -161,14 +170,6 @@
 									<div class="form-group">
 										<div class="col-sm-12">
 											<?php // echo form_dropdown('ishome', $this->configbie->data('ishome'), set_value('ishome', $DetailArticlesCatalogues['ishome']), 'class="form-control" style="width: 100%;"');?>
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="col-sm-12 control-label tp-text-left">Cột Aside</label>
-									</div>
-									<div class="form-group">
-										<div class="col-sm-12">
-											<?php // echo form_dropdown('isaside', $this->configbie->data('isaside'), set_value('isaside', $DetailArticlesCatalogues['isaside']), 'class="form-control" style="width: 100%;"');?>
 										</div>
 									</div>
 

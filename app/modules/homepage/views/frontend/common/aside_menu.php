@@ -1,4 +1,3 @@
-
  <div class="col-md-3 col-sm-3 col-xs-12">
     <div class="sidebar">
         <?php $menu_left = navigations_array('menu-left', $this->fc_lang);?>
@@ -7,7 +6,7 @@
               <h3 class="title-sb">DANH MỤC SẢN PHẨM</h3>
               <div class="nav-category">
                  <ul>
-                  <?php foreach ($menu_left as $key => $val): ?>
+                  <?php foreach ($sanpham as $key => $val): ?>
                     <li>
                        <a href="<?php echo $val['href']; ?>" title="<?php echo $val['title']; ?>"><?php echo $val['title']; ?></a>
                        <?php if(isset($val['child']) && is_array($val['child']) && count($val['child'])): ?>

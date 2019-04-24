@@ -2,7 +2,7 @@
     <div class="container">
        <div class="magintop-30">
           <div class="row">
-             <?php $this->load->view('homepage/frontend/common/slidebar'); ?>
+             <?php $this->load->view('homepage/frontend/common/aside'); ?>
              <div class="col-md-9 col-sm-9 col-xs-12">
                 <div class="content-new content-new-detail">
                    <h1 class="title-primary1 wow fadeInUp"><?= $DetailArticles['title'] ?> </h1>

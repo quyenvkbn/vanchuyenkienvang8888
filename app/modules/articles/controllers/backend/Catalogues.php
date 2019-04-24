@@ -173,7 +173,6 @@ class Catalogues extends FC_Controller{
 		));
 		$id = (int)$id;
 		$data['DetailArticlesCatalogues'] = $this->BackendArticlesCatalogues_Model->ReadByField('id', $id, $this->fclang);
-		
 		if(!isset($data['DetailArticlesCatalogues']) && !is_array($data['DetailArticlesCatalogues']) && count($data['DetailArticlesCatalogues']) == 0){
 			$this->session->set_flashdata('message-danger', 'Danh mục bài viết không tồn tại');
 			redirect_custom('articles/backend/catalogues/view');

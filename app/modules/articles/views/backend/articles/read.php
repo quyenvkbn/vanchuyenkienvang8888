@@ -29,7 +29,9 @@
 					<div class="col-sm-8 invoice-col">
 						<b>Thông tin</b><br>
 						<br>
-						<b>Xuất bản:</b> <?php echo $this->configbie->data('publish', $DetailArticles['publish']);?><br>
+						<b>Xuất bản:</b> <?php echo ($DetailArticles['publish'] >= 0) ? $this->configbie->data('publish', $DetailArticles['publish']) : 'Không xuất bản';?><br>
+						<b>Bài viết hữu ích:</b> <?php echo ($DetailArticles['isaside'] >= 0) ? $this->configbie->data('isaside', $DetailArticles['isaside']) : 'Không hiển thị';?><br>
+						<b>Nổi bật:</b> <?php echo ($DetailArticles['highlight'] >= 0) ? $this->configbie->data('highlight', $DetailArticles['highlight']) : 'Không nổi bật';?><br>
 					</div><!-- /.col -->
 				</div><!-- /.row -->
 				<div class="row">
