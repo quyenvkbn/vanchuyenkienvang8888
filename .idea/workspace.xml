@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b08db635-aa7a-4503-a20c-adadd0c9ad0f" name="Default" comment="" />
+    <ignored path="abc.com.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="294740182">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="abc.com" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/frontend/resources/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/modules/products/views/backend/products/create.php" />
+        <option value="$PROJECT_DIR$/app/modules/products/views/backend/products/update.php" />
+        <option value="$PROJECT_DIR$/app/modules/contacts/controllers/frontend/Contacts.php" />
+        <option value="$PROJECT_DIR$/app/modules/contacts/models/Frontendcontacts_model.php" />
+        <option value="$PROJECT_DIR$/app/modules/contacts/models/Backendcontacts_model.php" />
+        <option value="$PROJECT_DIR$/app/modules/contacts/views/backend/home/view.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/menu-left.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/Frontendarticlescatalogues_model.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/style.css" />
+        <option value="$PROJECT_DIR$/app/modules/homepage/views/frontend/home/index8.php" />
+        <option value="$PROJECT_DIR$/app/modules/homepage/views/frontend/common/footer8.php" />
+        <option value="$PROJECT_DIR$/app/modules/homepage/views/frontend/common/header8.php" />
+        <option value="$PROJECT_DIR$/app/modules/homepage/views/frontend/common/header.php" />
+        <option value="$PROJECT_DIR$/app/modules/systems/libraries/Configbie.php" />
+        <option value="$PROJECT_DIR$/app/modules/homepage/views/frontend/common/slider.php" />
+        <option value="$PROJECT_DIR$/app/modules/homepage/views/frontend/common/slide_tu.php" />
+        <option value="$PROJECT_DIR$/app/modules/homepage/views/frontend/home/index.php" />
+        <option value="$PROJECT_DIR$/app/modules/contacts/views/frontend/contacts/view.php" />
+        <option value="$PROJECT_DIR$/app/modules/homepage/views/frontend/common/head.php" />
+        <option value="$PROJECT_DIR$/app/modules/articles/views/frontend/catalogues/view8.php" />
+        <option value="$PROJECT_DIR$/app/modules/homepage/controllers/Home.php" />
+        <option value="$PROJECT_DIR$/app/modules/slides/models/Frontendslides_model.php" />
+        <option value="$PROJECT_DIR$/app/modules/homepage/views/frontend/common/aside_tu.php" />
+        <option value="$PROJECT_DIR$/app/modules/articles/views/frontend/catalogues/view.php" />
+        <option value="$PROJECT_DIR$/app/modules/articles/views/frontend/articles/view8.php" />
+        <option value="$PROJECT_DIR$/app/modules/homepage/views/frontend/common/lailatuday.php" />
+        <option value="$PROJECT_DIR$/app/modules/articles/views/frontend/articles/view.php" />
+        <option value="$PROJECT_DIR$/app/modules/products/controllers/frontend/Catalogues.php" />
+        <option value="$PROJECT_DIR$/app/modules/products/views/frontend/catalogues/view.php" />
+        <option value="$PROJECT_DIR$/app/modules/products/views/frontend/products/view3.php" />
+        <option value="$PROJECT_DIR$/templates/frontend/resources/css/demo.css" />
+        <option value="$PROJECT_DIR$/app/modules/articles/controllers/frontend/Catalogues.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/Catalogues.php" />
+        <option value="$PROJECT_DIR$/app/modules/mailsubricre/models/Backendmailsubricre_model.php" />
+        <option value="$PROJECT_DIR$/templates/frontend/resources/css/style.css" />
+        <option value="$PROJECT_DIR$/app/modules/homepage/views/frontend/common/footer.php" />
+        <option value="$PROJECT_DIR$/app/modules/mailsubricre/controllers/frontend/Mailsubricre.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/head.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/merged.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/footer.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/view 2.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/view.php" />
+        <option value="$PROJECT_DIR$/app/core/FC_Controller.php" />
+        <option value="$PROJECT_DIR$/app/modules/products/controllers/frontend/Products.php" />
+        <option value="$PROJECT_DIR$/app/modules/comments/views/backend/comments/view.php" />
+        <option value="$PROJECT_DIR$/app/modules/homepage/views/frontend/common/feedback.php" />
+        <option value="$PROJECT_DIR$/app/modules/homepage/views/frontend/common/comments.php" />
+        <option value="$PROJECT_DIR$/app/modules/comments/controllers/ajax/Comments.php" />
+        <option value="$PROJECT_DIR$/app/modules/products/views/frontend/products/view.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/constants.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/config.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b08db635-aa7a-4503-a20c-adadd0c9ad0f" name="Default" comment="" />
+      <created>1523248140217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523248140217</updated>
+      <workItem from="1551691795055" duration="349000" />
+      <workItem from="1551692165865" duration="12000" />
+      <workItem from="1556074537088" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="364000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17722474" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="11" weight="0.32911393" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.45762712" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/view.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/modules/homepage/views/frontend/common/aside_tu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="142" column="24" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/articles/views/frontend/catalogues/view7.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/articles/views/frontend/catalogues/view3.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/articles/views/frontend/catalogues/view2.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/articles/views/frontend/catalogues/duan.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/articles/views/frontend/catalogues/gioithieu.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/homepage/views/frontend/common/hihi.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/frontend/resources/tin-tuc.html" />
+    <entry file="file://$PROJECT_DIR$/app/modules/systems/libraries/Configbie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="93" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/homepage/views/frontend/common/lailatuday.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="86" column="11" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/frontend/resources/chi-tiet-tin-tuc.html" />
+    <entry file="file://$PROJECT_DIR$/app/modules/articles/views/frontend/articles/view8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/frontend/resources/san-pham.html" />
+    <entry file="file://$PROJECT_DIR$/app/modules/articles/views/frontend/articles/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/products/views/frontend/catalogues/view4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/products/views/frontend/catalogues/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/products/views/frontend/home/view.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/products/views/frontend/advancedsearch/view.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/products/controllers/frontend/Catalogues.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/articles/controllers/frontend/Catalogues.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="97" column="40" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/articles/controllers/frontend/Articles.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/mailsubricre/models/Frontendmailsubricre_model.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/mailsubricre/models/Backendmailsubricre_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/frontend/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="450" column="20" selection-start-line="450" selection-start-column="20" selection-end-line="450" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/articles/views/frontend/catalogues/tuvan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/frontend/resources/chi-tiet-san-pham.html" />
+    <entry file="file://$PROJECT_DIR$/templates/frontend/resources/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="394" column="1" selection-start-line="394" selection-start-column="1" selection-end-line="394" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/articles/views/frontend/catalogues/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="55" column="53" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/articles/views/frontend/catalogues/view8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="25" column="108" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/articles/views/frontend/catalogues/view6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="127" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/homepage/controllers/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="164" column="21" selection-start-line="164" selection-start-column="21" selection-end-line="164" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/homepage/controllers/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/homepage/views/frontend/home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="282" column="6" selection-start-line="282" selection-start-column="6" selection-end-line="282" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/homepage/views/frontend/home/index8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="297" column="155" selection-start-line="297" selection-start-column="128" selection-end-line="297" selection-end-column="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/mailsubricre/controllers/frontend/Mailsubricre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="51" column="68" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/FC_Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/comments/views/backend/comments/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="66" column="57" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/comment.php" />
+    <entry file="file://$PROJECT_DIR$/app/modules/homepage/views/frontend/common/feedback.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/comments/controllers/ajax/Comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="109" column="80" selection-start-line="109" selection-start-column="80" selection-end-line="109" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/products/controllers/frontend/Products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="22" column="103" selection-start-line="22" selection-start-column="103" selection-end-line="22" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/homepage/views/frontend/common/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="165" column="65" selection-start-line="165" selection-start-column="36" selection-end-line="165" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/FC_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/products/views/frontend/products/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="126" column="91" selection-start-line="126" selection-start-column="91" selection-end-line="126" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/products/views/frontend/products/view3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="97" column="88" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/homepage/views/frontend/common/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/config.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/constants.php" />
+    <entry file="file://$PROJECT_DIR$/templates/frontend/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="dd929d47-5a38-4d0f-877e-e5a1ef4e23be" name="sonoivutinhangiang.aicgroup.online" url="http://103.101.160.51:2222">
+        <fileTransfer host="45.117.81.34" port="21" password="dfe5dfc1dff3dfccdfd2dfeddff0dfc8" username="sonoivuag">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
