@@ -2,7 +2,7 @@
     <div class="container">
        <div class="magintop-30">
           <div class="row">
-            <?php $this->load->view('homepage/frontend/common/slidebar'); ?>
+            <?php $this->load->view('homepage/frontend/common/aside'); ?>
              <div class="col-md-9 col-sm-9 col-xs-12">
                 <div class="content-new">
                    <h2 class="heading wow fadeInUp">
@@ -25,7 +25,7 @@
                               </div>
                               <div class="nav-new-post">
                                 <div class="image">
-                                  <a href=""><img src="<?= $image ?>" alt="<?= $val['title']   ?>"></a>
+                                  <a href="<?= $href ?>"><img src="<?= $image ?>" alt="<?= $val['title']   ?>"></a>
                                 </div>
                                 <div class="nav-img">
                                   <p class="desc"><?= $description   ?></p>

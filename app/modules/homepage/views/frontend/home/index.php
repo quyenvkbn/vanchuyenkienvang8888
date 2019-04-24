@@ -121,7 +121,7 @@
                             <div class="news-post">
                                 <div class="box">
                                     <div class="post-thumbnail">
-                                        <a href="">
+                                        <a href="<?= $href ?>">
                                             <img  src="<?= $image ?>">
                                         </a>
                                     </div>

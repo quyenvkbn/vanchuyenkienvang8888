@@ -71,7 +71,7 @@
 					<th>Vị trí</th>
 					<th>Xuất bản</th>
 					<th>Nổi bật</th>
-					<th>Side left</th>
+					<th>Bài viết hữu ích</th>
 					<th class="text-right">Thao tác</th>
 				</tr>
 				<?php foreach($ListArticles as $key => $item){ ?>

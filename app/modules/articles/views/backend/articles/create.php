@@ -85,16 +85,10 @@
 											<?php echo form_textarea('content', htmlspecialchars_decode(set_value('content')), 'id="txtContent" class="ckeditor-description" placeholder="Nội dung" style="width: 100%; height: 350px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"');?>
 										</div>
 									</div>
-									<div class="form-group">
+									<div class="form-group hidden">
 										<label class="col-sm-2 control-label tp-text-left">Video</label>
 										<div class="col-sm-10">
-											<?php echo form_textarea('youtube', htmlspecialchars_decode(set_value('youtube')), 'id="txtyoutube" class="ckeditor-description" placeholder="Mã Hóa trước khi chèn link" style="width: 100%; height: 350px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"');?>
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="col-sm-2 control-label tp-text-left">Bóng đá</label>
-										<div class="col-sm-10">
-											<?php echo form_textarea('bongda', htmlspecialchars_decode(set_value('bongda')), 'id="txtbongda" class="ckeditor-description" placeholder="bongda" style="width: 100%; height: 350px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"');?>
+											<?php // echo form_textarea('youtube', htmlspecialchars_decode(set_value('youtube')), 'id="txtyoutube" class="ckeditor-description" placeholder="Mã Hóa trước khi chèn link" style="width: 100%; height: 350px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"');?>
 										</div>
 									</div>
 								</div><!-- /.box-body -->
@@ -191,12 +185,12 @@
 										<?php echo form_dropdown('publish', $this->configbie->data('publish'), set_value('publish', 1), 'class="form-control" style="width: 100%;"');?>
 									</div>
 								</div>
-								<div class="form-group">
+								<div class="form-group hidden">
 									<label class="col-sm-12 control-label tp-text-left">Trang chủ</label>
 								</div>
-								<div class="form-group">
+								<div class="form-group hidden">
 									<div class="col-sm-12">
-										<?php echo form_dropdown('ishome', $this->configbie->data('ishome'), set_value('ishome', -1), 'class="form-control" style="width: 100%;"');?>
+										<?php // echo form_dropdown('ishome', $this->configbie->data('ishome'), set_value('ishome', -1), 'class="form-control" style="width: 100%;"');?>
 									</div>
 								</div>
 								<div class="form-group">
@@ -207,12 +201,12 @@
 										<?php echo form_dropdown('isaside', $this->configbie->data('isaside'), set_value('isaside', -1), 'class="form-control" style="width: 100%;"');?>
 									</div>
 								</div>
-								<div class="form-group">
+								<div class="form-group hidden">
 									<label class="col-sm-12 control-label tp-text-left">Footer</label>
 								</div>
-								<div class="form-group">
+								<div class="form-group hidden">
 									<div class="col-sm-12">
-										<?php echo form_dropdown('isfooter', $this->configbie->data('isfooter'), set_value('isfooter', -1), 'class="form-control" style="width: 100%;"');?>
+										<?php // echo form_dropdown('isfooter', $this->configbie->data('isfooter'), set_value('isfooter', -1), 'class="form-control" style="width: 100%;"');?>
 									</div>
 								</div>
 								<div class="form-group">

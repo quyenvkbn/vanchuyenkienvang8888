@@ -20,6 +20,9 @@
 						</div><!-- /.col -->
 					</div>
 					<div class="row invoice-info">
+							<div class="box-body">
+								<?php $error = validation_errors(); echo !empty($error)?'<div class="callout callout-danger">'.$error.'</div>':'';?>
+							</div><!-- /.box-body -->
 						<div class="col-sm-4 invoice-col">
 							<b>Bài viết</b><br>
 							<br>
@@ -30,7 +33,9 @@
 						<div class="col-sm-8 invoice-col">
 							<b>Thông tin</b><br>
 							<br>
-							<b>Xuất bản:</b> <?php echo $this->configbie->data('publish', $DetailArticles['publish']);?><br>
+							<b>Xuất bản:</b> <?php echo ($DetailArticles['publish'] >= 0) ? $this->configbie->data('publish', $DetailArticles['publish']) : 'Không xuất bản';?><br>
+							<b>Bài viết hữu ích:</b> <?php echo ($DetailArticles['isaside'] >= 0) ? $this->configbie->data('isaside', $DetailArticles['isaside']) : 'Không hiển thị';?><br>
+							<b>Nổi bật:</b> <?php echo ($DetailArticles['highlight'] >= 0) ? $this->configbie->data('highlight', $DetailArticles['highlight']) : 'Không nổi bật';?><br>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
 					<div class="row">
@@ -38,6 +43,12 @@
 							<p class="lead">Mô tả:</p>
 							<div class="text-muted well well-sm no-shadow">
 							<?php echo $DetailArticles['description'];?>
+							</div>
+						</div><!-- /.col -->
+						<div class="col-xs-12">
+							<p class="lead">Nội dung:</p>
+							<div class="text-muted well well-sm no-shadow">
+							<?php echo $DetailArticles['content'];?>
 							</div>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
